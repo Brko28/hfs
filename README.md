@@ -62,23 +62,23 @@ Runs on: Windows, Linux, macOS, FreeBSD, Android
 
 ## Installation
 
-For Docker, see https://github.com/rejetto/hfs/wiki/Docker . 
-
-For service installation, see https://github.com/rejetto/hfs/wiki/Service-installation.
-
-For Homebrew, just `brew install rejetto/hfs/hfs`
-
 The minimum Windows version required is 10 or Server 2019.
 
 1. Download the zip file for your operating system from https://github.com/rejetto/hfs/releases
-   - ⚠️ Antivirus problems on Windows? [READ THIS](https://github.com/rejetto/hfs/wiki/Antivirus)
-   - ⚠️ If you have Linux ARM or other unlisted/unsupported platforms, please see the [Other systems](#other-systems) section.
 2. Unzip and launch the `hfs` file.
-   - ⚠️ Mac: if you get *"cannot be opened because it is from an unidentified developer"*,
-     you can hold `control` key while clicking, then click `open`.
 3. The browser should automatically open at `localhost`, so you can configure the rest in the Admin-panel.
 
+For Docker, see https://github.com/rejetto/hfs/wiki/Docker.
+
+For service installation, see https://github.com/rejetto/hfs/wiki/Service-installation.
+
+For Homebrew, just `brew install rejetto/hfs/hfs`.
+
+If you your platform is not directly supported, please see the [Other systems](#other-systems) section.
+
 Troubleshooting
+  - If on your Mac you get *"cannot be opened because it is from an unidentified developer"*,
+    you can hold `control` key while clicking, then click `open`.
   - If a browser cannot be opened on the computer where HFS runs, enter `create-admin <PASSWORD>` 
     in the **running HFS console** (this is not an OS shell command), then log in as `admin` with that password.
   - If you cannot access the HFS console (for example, when running as a service),
