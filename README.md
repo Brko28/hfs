@@ -2,6 +2,10 @@
 
 ![logo and motto](hfs-logo-color-motto.svg)
 
+[Screenshots & video →](https://www.rejetto.com/hfs/#preview)
+
+<a href="https://www.rejetto.com/hfs/#preview"><img src="https://www.rejetto.com/hfs/images/hfs-files-desktop.png" alt="HFS file browser with upload, search and ZIP downloads — watch the video and view more screenshots" width="480"></a>
+
 ## Index
 
 - [Introduction](#introduction)
